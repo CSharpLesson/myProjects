@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\bin\Debug\netcoreapp2.2\Arifmetika.deps.json
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\bin\Debug\netcoreapp2.2\Arifmetika.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\bin\Debug\netcoreapp2.2\Arifmetika.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\bin\Debug\netcoreapp2.2\Arifmetika.dll
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\bin\Debug\netcoreapp2.2\Arifmetika.pdb
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\obj\Debug\netcoreapp2.2\Arifmetika.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\obj\Debug\netcoreapp2.2\Arifmetika.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\obj\Debug\netcoreapp2.2\Arifmetika.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\obj\Debug\netcoreapp2.2\Arifmetika.dll
+C:\Users\User\source\repos\Lesson\arifmetika\Arifmetika\Arifmetika\obj\Debug\netcoreapp2.2\Arifmetika.pdb

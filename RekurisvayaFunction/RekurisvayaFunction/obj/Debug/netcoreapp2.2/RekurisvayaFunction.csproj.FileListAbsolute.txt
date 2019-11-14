@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\bin\Debug\netcoreapp2.2\RekurisvayaFunction.deps.json
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\bin\Debug\netcoreapp2.2\RekurisvayaFunction.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\bin\Debug\netcoreapp2.2\RekurisvayaFunction.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\bin\Debug\netcoreapp2.2\RekurisvayaFunction.dll
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\bin\Debug\netcoreapp2.2\RekurisvayaFunction.pdb
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\obj\Debug\netcoreapp2.2\RekurisvayaFunction.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\obj\Debug\netcoreapp2.2\RekurisvayaFunction.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\obj\Debug\netcoreapp2.2\RekurisvayaFunction.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\obj\Debug\netcoreapp2.2\RekurisvayaFunction.dll
+C:\Users\User\source\repos\Lesson\RekurisvayaFunction\RekurisvayaFunction\obj\Debug\netcoreapp2.2\RekurisvayaFunction.pdb

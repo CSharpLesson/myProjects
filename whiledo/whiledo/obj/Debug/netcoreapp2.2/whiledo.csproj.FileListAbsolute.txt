@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\whiledo\whiledo\bin\Debug\netcoreapp2.2\whiledo.deps.json
+C:\Users\User\source\repos\whiledo\whiledo\bin\Debug\netcoreapp2.2\whiledo.runtimeconfig.json
+C:\Users\User\source\repos\whiledo\whiledo\bin\Debug\netcoreapp2.2\whiledo.runtimeconfig.dev.json
+C:\Users\User\source\repos\whiledo\whiledo\bin\Debug\netcoreapp2.2\whiledo.dll
+C:\Users\User\source\repos\whiledo\whiledo\bin\Debug\netcoreapp2.2\whiledo.pdb
+C:\Users\User\source\repos\whiledo\whiledo\obj\Debug\netcoreapp2.2\whiledo.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\whiledo\whiledo\obj\Debug\netcoreapp2.2\whiledo.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\whiledo\whiledo\obj\Debug\netcoreapp2.2\whiledo.AssemblyInfo.cs
+C:\Users\User\source\repos\whiledo\whiledo\obj\Debug\netcoreapp2.2\whiledo.dll
+C:\Users\User\source\repos\whiledo\whiledo\obj\Debug\netcoreapp2.2\whiledo.pdb

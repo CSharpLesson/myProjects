@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Protected\Protected\bin\Debug\netcoreapp2.2\Protected.deps.json
+C:\Users\User\source\repos\Lesson\Protected\Protected\bin\Debug\netcoreapp2.2\Protected.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Protected\Protected\bin\Debug\netcoreapp2.2\Protected.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Protected\Protected\bin\Debug\netcoreapp2.2\Protected.dll
+C:\Users\User\source\repos\Lesson\Protected\Protected\bin\Debug\netcoreapp2.2\Protected.pdb
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.dll
+C:\Users\User\source\repos\Lesson\Protected\Protected\obj\Debug\netcoreapp2.2\Protected.pdb

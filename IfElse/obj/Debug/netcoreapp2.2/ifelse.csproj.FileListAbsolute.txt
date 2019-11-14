@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ifelse\ifelse\bin\Debug\netcoreapp2.2\ifelse.deps.json
+C:\Users\User\source\repos\ifelse\ifelse\bin\Debug\netcoreapp2.2\ifelse.runtimeconfig.json
+C:\Users\User\source\repos\ifelse\ifelse\bin\Debug\netcoreapp2.2\ifelse.runtimeconfig.dev.json
+C:\Users\User\source\repos\ifelse\ifelse\bin\Debug\netcoreapp2.2\ifelse.dll
+C:\Users\User\source\repos\ifelse\ifelse\bin\Debug\netcoreapp2.2\ifelse.pdb
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.AssemblyInfo.cs
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.dll
+C:\Users\User\source\repos\ifelse\ifelse\obj\Debug\netcoreapp2.2\ifelse.pdb

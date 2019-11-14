@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\bin\Debug\netcoreapp2.2\Konstant.deps.json
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\bin\Debug\netcoreapp2.2\Konstant.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\bin\Debug\netcoreapp2.2\Konstant.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\bin\Debug\netcoreapp2.2\Konstant.dll
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\bin\Debug\netcoreapp2.2\Konstant.pdb
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.dll
+C:\Users\User\source\repos\Lesson\Konstant\Konstant\obj\Debug\netcoreapp2.2\Konstant.pdb

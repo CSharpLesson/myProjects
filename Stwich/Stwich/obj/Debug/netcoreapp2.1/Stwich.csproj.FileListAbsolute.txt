@@ -1,0 +1,11 @@
+C:\Users\user1\source\repos\Stwich\Stwich\bin\Debug\netcoreapp2.1\Stwich.deps.json
+C:\Users\user1\source\repos\Stwich\Stwich\bin\Debug\netcoreapp2.1\Stwich.runtimeconfig.json
+C:\Users\user1\source\repos\Stwich\Stwich\bin\Debug\netcoreapp2.1\Stwich.runtimeconfig.dev.json
+C:\Users\user1\source\repos\Stwich\Stwich\bin\Debug\netcoreapp2.1\Stwich.dll
+C:\Users\user1\source\repos\Stwich\Stwich\bin\Debug\netcoreapp2.1\Stwich.pdb
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.csprojAssemblyReference.cache
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.AssemblyInfoInputs.cache
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.AssemblyInfo.cs
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.dll
+C:\Users\user1\source\repos\Stwich\Stwich\obj\Debug\netcoreapp2.1\Stwich.pdb

@@ -1,0 +1,270 @@
+Xar bir xarifni ozini soni bor 
+bu select osha sonini qaytaradi
+--SELECT ASCII(CustomerName) AS NumCodeOfFirstChar
+FROM Customers;--
+
+
+Bu select tepadigini teskarisi
+--SELECT CHAR(65) AS CodeToCharacter;--
+
+
+Bu funksiya t harifi customer sozininechinchi harfligini korsatadi
+Определение и использование
+Функция CHARINDEX () ищет подстроку в строке и возвращает позицию.
+Если подстрока не найдена, эта функция возвращает 0.
+Примечание. Эта функция выполняет поиск без учета регистра.
+--SELECT CHARINDEX('t', 'Customer') AS MatchPosition;--
+Bu select huddi tepadigi sozni ozi faqat u 3 ta xarifni nechinchi indeksdaligini korsatadi
+--SELECT CHARINDEX('mer', 'Customer', 3) AS MatchPosition;--
+
+
+Concat funksiya ikkita sozni bir biriga ulidi
+--SELECT CONCAT('W3School', '.com');--
+
+
+Concat funksiyani orniga shunday qilib yozsa ham bo'ldi;
+--SELECT 'W3Schools' + '.com';--
+
+
+
+Concat_ws funksiya ulandadigan sozlarni orasiga boshida qo'ygan belgini qoyib beradi
+--SELECT CONCAT_WS('.', 'www', 'W3Schools', 'com');--
+
+
+
+Bu funksiya nechta harif borligini sanab beradi va indexsi 0 dan boshlanadi
+--SELECT DATALENGTH('W3Schools.com');--
+
+
+
+Bu select vaxtni formatini korsatadi ;
+--DECLARE @d DATETIME = '12/01/2018';  
+SELECT FORMAT (@d, 'd', 'en-US') AS 'US English Result',  
+       FORMAT (@d, 'd', 'no') AS 'Norwegian Result',  
+       FORMAT (@d, 'd', 'zu') AS 'Zulu Result';--
+
+
+Bu select qanaqa formatda bolishini korsatadi
+--SELECT FORMAT(123456789, '##-##-#####');--
+
+
+Bu funksiya sozni chap taraftidagi 3 ta harfni oladi
+--SELECT LEFT('SQL Tutorial', 3) AS ExtractString;--
+hudi shu funksiya faqat bazaga ulangani
+--SELECT LEFT(CustomerName, 5) AS ExtractString
+FROM Customers;--
+
+
+
+Bu len funksiya nechta harif borligini korsatadi son vaho kazo
+--SELECT LEN('W3Schools.com');--
+--SELECT LEN('2017-08');--
+
+
+
+
+Agar len funksiyaga probel qilinsa hato chiqaradi
+SELECT LEN('   W3Schools.com   '); shunday
+
+
+
+Lower funksiyasi katta hariflani kichik qilib korsatadi
+--SELECT LOWER('SQL Tutorial is FUN!');--
+
+
+Определение и использование
+Функция LTRIM () удаляет начальные пробелы из строки
+--SELECT LTRIM('     SQL Tutorial') AS LeftTrimmedString;--
+
+
+Bu funksiya  char funksiyani ozi
+--SELECT NCHAR(65) AS NumberCodeToUnicode;--
+
+
+
+Bu funksiya nechinchi harifdan kegin su so'z yoki harif turishini korsatasdi
+--SELECT PATINDEX('%schools%', 'W3Schools.com');--
+
+
+Bu funksiya hariflarni almashtiradi
+--SELECT REPLACE('SQL Tutorial', 'T', 'M');--
+bunda birinchi kirgizilgan harifni orniga ikkinchi kirgizilgan harif
+
+
+Bu funksiya yozilgan sozlarni yozilgan sonta qilib qoyadi
+--SELECT REPLICATE('SQL Tutorial',2);--
+
+
+
+Bu funksiya Yozilgan sozni teskari qilib qoyadi
+--SELECT REVERSE('SQL Tutorial');--
+lairotuT LQS shunday 
+
+
+
+Bu funksiya sozlarni on tarafdan 3 tasini oladi
+--SELECT RIGHT('SQL Tutorial', 3) AS ExtractString;--
+
+
+
+Bu funksiya soni char qilib beradi
+--SELECT STR(185);--
+
+
+Bu funksiya kiritilgan so'zni 
+SELECT STUFF('SQL Tutorial', 1, 3, 'HTML');
+1- indexsidan 3-chisigacha almashtiradi;
+SELECT STUFF('SQL Tutorial!', 13, 1, ' is fun!');
+SQL Tutorial is fun!
+
+
+
+
+Bu funksiya 1- dan 3 - indexgacha bogan harifni oladi qoganini ochiradi
+SELECT SUBSTRING('SQL Tutorial', 1, 3) AS ExtractString;
+
+
+
+Bu funksiya shu sozni boshidigi harifini indexsini aniqlidi;
+SELECT UNICODE('Ctlanta');
+
+
+Bu funksiya kichik hariflarni katta qilib beradi
+--SELECT UPPER('SQL Tutorial is FUN!');--
+
+
+Bu funksiya minusli sonlarni plus qilib oladi yan bu modul degani
+--SELECT Abs(-243.5) AS AbsNum;--
+
+
+Bu funksiya kiritilgan soni arccosinusini kirgizib beradi
+--SELECT ACOS(0.25);--
+
+
+Bu arcsinusni
+SELECT ASIN(0.25);
+
+
+
+Bu arctangestni
+SELECT ATAN(0.25);
+
+
+Bu arcctgni
+SELECT ATN2(0.25);
+
+
+Bu funksiya 25.75 sonini 26 qilib beradi
+SELECT CEILING(25.75) AS CeilValue;
+
+bu funksiyz butun sonni oladi
+--SELECT FLOOR(25.75) AS FloorValue;--
+
+cosinus funksiya
+SELECT COS(2);
+
+kotanges funksiya
+SELECT COT(6);
+
+
+Перевести радиан в градусы:
+SELECT DEGREES(1.5);
+
+
+Bu funksiya logorifmni hisoblab beradi
+--SELECT LOG(2, 4);--
+bu logorifm 2 asosga kora torni bildiradi
+
+Вернуть значение PI:
+SELECT PI();
+
+
+
+Bu select soni darajasini aniqlab beradi
+SELECT POWER(x, y);
+x bu son y esa daraja
+
+
+Bu gradusdan radiani chiqaradigan funksiya
+SELECT RADIANS(180);
+
+
+
+Вернуть знак числа:
+SELECT SIGN(255.5);
+
+
+Sinusni chiqaradigan funksiya
+SELECT SIN(2);
+
+
+Bu select ildiz oladi
+SELECT SQRT(64);
+bu boladi 64dan ildiz
+
+
+Bu funksiya soni kvadrati
+SELECT SQUARE(64);
+64*64=4096
+
+
+
+Bu funksiya tangesni hisoblidi
+SELECT TAN(1.75);
+
+Bu funksiya Hozirgi vahtnii chiqaradi
+SELECT CURRENT_TIMESTAMP;
+
+
+
+Bu funksiya hozirgi vahtga 2 oy qoshib beradi
+SELECT DATEADD(month, 2, '2017/08/25') AS DateAdd;
+
+
+Bu funksiya ikkala yil bir biridan qancha farq qilishini korsatadi
+SELECT DATEDIFF(year, '2017/08/25', '2011/08/25') AS DateDiff;
+
+
+Bu funksiya faqat yilni korsatadi;
+SELECT DATENAME(year, '2017/08/25') AS DatePartString;
+
+
+
+Bu funksiya agar year db yozsa faqat yilni agar month db yozsa faqat oyni vaho kazoni korsatadi
+SELECT DATEPART(year, '2017/08/25') AS DatePartInt;
+SELECT DATEPART(month, '2017/08/25') AS DatePartInt;
+SELECT DATEPART(hour, '2017/08/25 08:36') AS DatePartInt;
+SELECT DATEPART(minute, '2017/08/25 08:36') AS DatePartInt;
+
+
+
+
+Bu funksiya faqat kunni korsatadi
+SELECT DAY('2017/08/25') AS DayOfMonth;
+
+
+
+
+Bu funksiya hozirgi vaqtni oladi
+SELECT GETDATE();
+SELECT GETUTCDATE();
+
+
+
+
+Bu funksiya oyni chiqarib beradi
+SELECT Month('2017/08/25') AS Month;
+
+
+
+
+Определение и использование
+Функция CAST () преобразует значение (любого типа) в указанный тип данных.
+Совет: также посмотрите на функцию CONVERT () 
+SELECT CAST('2017-08-25' AS datetime);
+
+
+
+
+Bu selekt togri yoki notogriligini etadi
+SELECT IIF(500<1000, 'YES', 'NO');

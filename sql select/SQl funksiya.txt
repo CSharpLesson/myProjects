@@ -1,0 +1,16 @@
+Bu funksiya nechtadir tablitsadan malumot olib qoshish ayirish bo'lish va ko'paytirishni bajarib malumotni chiqaradi
+
+
+
+
+Create function nimadu()
+returns table ( ism varchar, nomi varchar, mes smallint, god smallint,area numeric(11,3),tolangan numeric(15,2)) as  
+$$
+begin
+return query select  f.owner_name,s.NAME,sd.services_mes,sd.services_god, f.area_live , f.area_live*s.price from flats  f
+left join services_done sd on sd.ref_flat= f.id
+left join services s on sd.ref_services = s.id
+where (sd.ref_flat=f.id)and (sd.ref_services=s.id);
+end;
+$$
+language plpgsql;

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\bin\Debug\netcoreapp2.2\KlassObject.deps.json
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\bin\Debug\netcoreapp2.2\KlassObject.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\bin\Debug\netcoreapp2.2\KlassObject.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\bin\Debug\netcoreapp2.2\KlassObject.dll
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\bin\Debug\netcoreapp2.2\KlassObject.pdb
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.dll
+C:\Users\User\source\repos\Lesson\KlassObject\KlassObject\obj\Debug\netcoreapp2.2\KlassObject.pdb

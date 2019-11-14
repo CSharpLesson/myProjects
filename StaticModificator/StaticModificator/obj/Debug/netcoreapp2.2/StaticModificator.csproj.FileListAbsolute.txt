@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\bin\Debug\netcoreapp2.2\StaticModificator.deps.json
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\bin\Debug\netcoreapp2.2\StaticModificator.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\bin\Debug\netcoreapp2.2\StaticModificator.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\bin\Debug\netcoreapp2.2\StaticModificator.dll
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\bin\Debug\netcoreapp2.2\StaticModificator.pdb
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.dll
+C:\Users\User\source\repos\Lesson\StaticModificator\StaticModificator\obj\Debug\netcoreapp2.2\StaticModificator.pdb

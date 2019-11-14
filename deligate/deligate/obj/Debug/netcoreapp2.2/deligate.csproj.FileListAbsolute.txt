@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\deligate\deligate\bin\Debug\netcoreapp2.2\deligate.deps.json
+C:\Users\User\source\repos\Lesson\deligate\deligate\bin\Debug\netcoreapp2.2\deligate.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\deligate\deligate\bin\Debug\netcoreapp2.2\deligate.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\deligate\deligate\bin\Debug\netcoreapp2.2\deligate.dll
+C:\Users\User\source\repos\Lesson\deligate\deligate\bin\Debug\netcoreapp2.2\deligate.pdb
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.dll
+C:\Users\User\source\repos\Lesson\deligate\deligate\obj\Debug\netcoreapp2.2\deligate.pdb

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\bin\Debug\netcoreapp2.2\AbstraktClass.deps.json
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\bin\Debug\netcoreapp2.2\AbstraktClass.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\bin\Debug\netcoreapp2.2\AbstraktClass.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\bin\Debug\netcoreapp2.2\AbstraktClass.dll
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\bin\Debug\netcoreapp2.2\AbstraktClass.pdb
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.dll
+C:\Users\User\source\repos\Lesson\AbstraktClass\AbstraktClass\obj\Debug\netcoreapp2.2\AbstraktClass.pdb

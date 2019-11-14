@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\bin\Debug\netcoreapp2.2\Sortirovka.deps.json
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\bin\Debug\netcoreapp2.2\Sortirovka.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\bin\Debug\netcoreapp2.2\Sortirovka.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\bin\Debug\netcoreapp2.2\Sortirovka.dll
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\bin\Debug\netcoreapp2.2\Sortirovka.pdb
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.dll
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.pdb
+C:\Users\User\source\repos\Lesson\Sortirovka\Sortirovka\obj\Debug\netcoreapp2.2\Sortirovka.csprojAssemblyReference.cache

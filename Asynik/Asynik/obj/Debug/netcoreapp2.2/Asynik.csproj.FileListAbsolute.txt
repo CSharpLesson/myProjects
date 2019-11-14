@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\bin\Debug\netcoreapp2.2\Asynik.deps.json
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\bin\Debug\netcoreapp2.2\Asynik.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\bin\Debug\netcoreapp2.2\Asynik.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\bin\Debug\netcoreapp2.2\Asynik.dll
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\bin\Debug\netcoreapp2.2\Asynik.pdb
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.dll
+C:\Users\User\source\repos\Lesson\Asynik\Asynik\obj\Debug\netcoreapp2.2\Asynik.pdb

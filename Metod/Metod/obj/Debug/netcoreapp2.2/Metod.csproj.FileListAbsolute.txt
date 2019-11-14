@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Lesson\Metod\Metod\bin\Debug\netcoreapp2.2\Metod.deps.json
+C:\Users\User\source\repos\Lesson\Metod\Metod\bin\Debug\netcoreapp2.2\Metod.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Metod\Metod\bin\Debug\netcoreapp2.2\Metod.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Metod\Metod\bin\Debug\netcoreapp2.2\Metod.dll
+C:\Users\User\source\repos\Lesson\Metod\Metod\bin\Debug\netcoreapp2.2\Metod.pdb
+C:\Users\User\source\repos\Lesson\Metod\Metod\obj\Debug\netcoreapp2.2\Metod.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Metod\Metod\obj\Debug\netcoreapp2.2\Metod.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Metod\Metod\obj\Debug\netcoreapp2.2\Metod.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Metod\Metod\obj\Debug\netcoreapp2.2\Metod.dll
+C:\Users\User\source\repos\Lesson\Metod\Metod\obj\Debug\netcoreapp2.2\Metod.pdb

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\bin\Debug\netcoreapp2.2\Svoystva.deps.json
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\bin\Debug\netcoreapp2.2\Svoystva.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\bin\Debug\netcoreapp2.2\Svoystva.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\bin\Debug\netcoreapp2.2\Svoystva.dll
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\bin\Debug\netcoreapp2.2\Svoystva.pdb
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.dll
+C:\Users\User\source\repos\Lesson\Svoystva\Svoystva\obj\Debug\netcoreapp2.2\Svoystva.pdb

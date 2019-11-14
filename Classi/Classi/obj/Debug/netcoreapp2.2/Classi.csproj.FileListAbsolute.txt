@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Classi\Classi\bin\Debug\netcoreapp2.2\Classi.deps.json
+C:\Users\User\source\repos\Lesson\Classi\Classi\bin\Debug\netcoreapp2.2\Classi.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Classi\Classi\bin\Debug\netcoreapp2.2\Classi.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Classi\Classi\bin\Debug\netcoreapp2.2\Classi.dll
+C:\Users\User\source\repos\Lesson\Classi\Classi\bin\Debug\netcoreapp2.2\Classi.pdb
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.dll
+C:\Users\User\source\repos\Lesson\Classi\Classi\obj\Debug\netcoreapp2.2\Classi.pdb

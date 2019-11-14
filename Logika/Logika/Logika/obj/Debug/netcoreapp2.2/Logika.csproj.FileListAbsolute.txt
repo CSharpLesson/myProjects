@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\bin\Debug\netcoreapp2.2\Logika.deps.json
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\bin\Debug\netcoreapp2.2\Logika.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\bin\Debug\netcoreapp2.2\Logika.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\bin\Debug\netcoreapp2.2\Logika.dll
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\bin\Debug\netcoreapp2.2\Logika.pdb
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\obj\Debug\netcoreapp2.2\Logika.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\obj\Debug\netcoreapp2.2\Logika.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\obj\Debug\netcoreapp2.2\Logika.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\obj\Debug\netcoreapp2.2\Logika.dll
+C:\Users\User\source\repos\Lesson\Logika\Logika\Logika\obj\Debug\netcoreapp2.2\Logika.pdb

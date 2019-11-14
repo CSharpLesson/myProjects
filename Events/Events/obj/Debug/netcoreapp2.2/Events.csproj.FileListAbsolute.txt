@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Events\Events\bin\Debug\netcoreapp2.2\Events.deps.json
+C:\Users\User\source\repos\Lesson\Events\Events\bin\Debug\netcoreapp2.2\Events.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Events\Events\bin\Debug\netcoreapp2.2\Events.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Events\Events\bin\Debug\netcoreapp2.2\Events.dll
+C:\Users\User\source\repos\Lesson\Events\Events\bin\Debug\netcoreapp2.2\Events.pdb
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.dll
+C:\Users\User\source\repos\Lesson\Events\Events\obj\Debug\netcoreapp2.2\Events.pdb

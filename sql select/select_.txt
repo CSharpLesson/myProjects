@@ -1,0 +1,226 @@
+Bu select 10ta bir hil narsadan 1 tasini oladi:
+--Select Distinct country from custemers--.
+
+
+Bu select bazadan filter qilib beradi:
+--SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';--
+
+Bu select tartib bilan qoyadi hohlasa nom boyicha yoki son boyicha:
+--SELECT * FROM Customers
+ORDER BY Country;--
+
+
+Bu select ^ selectni teskarisi:
+SELECT * FROM Customers
+ORDER BY Country DESC;
+
+
+Bu select bazaga malumot qo'shadi:
+--INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');--
+
+Bu select 0ga teng boganlani oladi:
+--SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;--
+
+
+Bu select 0 ga teng bomaganlani oladi
+--SELECT column_names
+FROM table_name
+WHERE column_name IS Not NULL;--
+
+
+Bu select bazadan kerekli malumot yoki malumotlarni topib ozgartiradi:
+--UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;--
+
+Bu select eng boshidagi 3ta malumotni oladi:
+--SELECT TOP 3 * FROM Customers;--
+
+Bu select 50% malumotni oladi:
+--SELECT TOP 50 PERCENT * FROM Customers;--
+
+
+Bu select germaniya yozuvli 3 ta ketma ket malumotni oladi
+--SELECT TOP 3 * FROM Customers
+WHERE Country='Germany';--
+
+Функция MIN () возвращает наименьшее значение из выбранного столбца:
+--SELECT MIN(Price) AS SmallestPrice
+FROM Products; --
+
+
+Функция MAX () возвращает наибольшее значение выбранного столбца:
+--SELECT MAX(Price) AS LargestPrice
+FROM Products;--
+
+
+Bu select id nechi bilan tugashini korsatadi:
+--SELECT COUNT(ProductID)
+FROM Products;--
+
+
+Bu select hamma summani hisoblab chiqaradi:
+--SELECT SUM(Quantity)
+FROM OrderDetails;--
+
+
+Bu select  a bilan boshlandadigan so'zlarni qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';--
+
+Bu select a bilan tugidigan sozlarni qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';--
+
+
+Bu select boshi va oxiridan ortasidan qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';--
+
+Bu select boshi a bilan boshlanib oxiri o bilan tugidigan sozlani qidiradi:
+--SELECT * FROM Customers
+WHERE ContactName LIKE 'a%o';--
+
+
+Bu select boshi a ga teng bomagan sozlani chiqaradi:
+--SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'a%'--
+
+
+Bu select 10 va 20 orasidagi sonlani chiqaradi:
+--SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;--
+
+
+Bu select 10 va 20 orasida bomaganlani chiqaradi:
+--SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;--
+
+
+Bu select ikkita bazada borini oladi:
+SELECT * FROM Customers
+WHERE Country IN (SELECT Country FROM Suppliers);
+
+
+Bu select nechta shu son borligini korsatadi:
+--SELECT count(*) FROM Products where  Price = 18--
+
+
+Bu select orta arifmetigini topadi:
+--SELECT AVG(Price) FROM Products;--
+
+
+Bu select ikkinchi harifi a bolgan sozni topadi:
+--
+SELECT * FROM Customers WHERE City LIKE '_a%';--
+
+
+Bu select a yoki c yoki s borli topadi:
+--SELECT * FROM Customers WHERE City LIKE '[acs]%';--
+
+
+
+Bu select bilmiman nma qlishini:
+
+--SELECT * FROM Customers WHERE City LIKE '[a-f]%';--
+
+Bu select a yoki b yoki f ga teng bomagan sozlani ko'rsatadi:
+--SELECT * FROM Customers WHERE City LIKE '[!acf]%';--
+
+
+Bu select customers tablitsani ichida country kolonkani ichidan norway yoki france bor boganini olib chiqadi:
+--SELECT * FROM Customers
+where country in('norway', 'France');--
+
+
+Bu select custemerid digi malumotlarni olib yendi id dgan ochib uni ichiga tashidi
+
+--SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;--
+
+
+
+
+Bu select custemername digi malumotlarni olib yendi custemer dgan ochib uni ichiga tashidi va contactname digi malumotlarni olib yendi contact dgan ochib uni ichiga tashidi
+--SELECT CustomerName AS Customer, ContactName AS [Contact Person]
+FROM Customers;--
+
+
+Bu select adress ochib uni ichiga adress postalcode city countryni tashavott
+--SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address
+FROM Customers;--
+
+
+Bu select Ikkala tablitsada borini olib chiqadi borini :
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;--
+
+
+(INNER) JOIN : возвращает записи с совпадающими значениями в обеих таблицах
+LEFT (OUTER) JOIN : возвращает все записи из левой таблицы и сопоставленные записи из правой таблицы
+RIGHT (OUTER) JOIN : возвращает все записи из правой таблицы и сопоставленные записи из левой таблицы
+FULL (OUTER) JOIN : возвращает все записи, когда в левой или правой таблице есть совпадение
+
+
+
+ Bu select ikkalasida borini tengini oladi:
+--SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM ((Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);--
+
+
+Bu select ikkalasida borini tengini oladi:
+--SELECT Orders.OrderID, Customers.CustomerName, Shippers.ShipperName
+FROM ((Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID);--
+
+
+Ключевое слово LEFT JOIN возвращает все записи из левой таблицы (table1) и соответствующие записи из правой таблицы (table2). Результат равен NULL с правой стороны, если совпадений нет.
+--SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID;--
+
+
+
+Ключевое слово RIGHT JOIN возвращает все записи из правой таблицы (table2) и сопоставленные записи из левой таблицы (table1). Результат равен NULL с левой стороны, когда нет совпадений.
+--SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
+FROM Orders
+RIGHT JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+ORDER BY Orders.OrderID;--
+
+
+SQL FULL OUTER JOIN Ключевое слово
+Ключевое слово FULL OUTER JOIN возвращает все записи при наличии совпадения в левой (table1) или правой (table2) табличных записях.
+Примечание: FULL OUTER JOIN потенциально может возвращать очень большие наборы результатов!
+Совет: FULL OUTER JOIN и FULL JOIN - это одно и то же.
+--SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+FULL OUTER JOIN Orders ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;--
+
+
+SQL Self JOIN
+Self JOIN - это обычное соединение, но таблица соединяется сама с собой.
+Синтаксис самостоятельного соединения
+--SELECT A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City
+FROM Customers A, Customers B
+WHERE A.CustomerID <> B.CustomerID
+AND A.City = B.City 
+ORDER BY A.City;--
+
+
+Оператор ANY возвращает TRUE, если какое-либо из значений подзапроса удовлетворяет условию.
+Следующий оператор SQL возвращает TRUE и перечисляет имена продуктов, если он находит ЛЮБЫЕ записи в таблице OrderDetails, количество = 10:
+
+
+--SELECT ProductName
+FROM Products
+WHERE ProductID = ANY (SELECT ProductID FROM OrderDetails WHERE Quantity = 10);--

@@ -1,0 +1,145 @@
+Bu select 10ta bir hil narsadan 1 tasini oladi:
+--Select Distinct country from custemers--.
+
+
+Bu select bazadan filter qilib beradi:
+--SELECT * FROM Customers
+WHERE Country='Germany' AND City='Berlin';--
+
+Bu select tartib bilan qoyadi hohlasa nom boyicha yoki son boyicha:
+--SELECT * FROM Customers
+ORDER BY Country;--
+
+
+Bu select ^ selectni teskarisi:
+SELECT * FROM Customers
+ORDER BY Country DESC;
+
+
+Bu select bazaga malumot qo'shadi:
+--INSERT INTO Customers (CustomerName, City, Country)
+VALUES ('Cardinal', 'Stavanger', 'Norway');--
+
+Bu select 0ga teng boganlani oladi:
+--SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;--
+
+
+Bu select 0 ga teng bomaganlani oladi
+--SELECT column_names
+FROM table_name
+WHERE column_name IS Not NULL;--
+
+
+Bu select bazadan kerekli malumot yoki malumotlarni topib ozgartiradi:
+--UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;--
+
+Bu select eng boshidagi 3ta malumotni oladi:
+--SELECT TOP 3 * FROM Customers;--
+
+Bu select 50% malumotni oladi:
+--SELECT TOP 50 PERCENT * FROM Customers;--
+
+
+Bu select germaniya yozuvli 3 ta ketma ket malumotni oladi
+--SELECT TOP 3 * FROM Customers
+WHERE Country='Germany';--
+
+Функция MIN () возвращает наименьшее значение из выбранного столбца:
+--SELECT MIN(Price) AS SmallestPrice
+FROM Products; --
+
+
+Функция MAX () возвращает наибольшее значение выбранного столбца:
+--SELECT MAX(Price) AS LargestPrice
+FROM Products;--
+
+
+Bu select id nechi bilan tugashini korsatadi:
+--SELECT COUNT(ProductID)
+FROM Products;--
+
+
+Bu select hamma summani hisoblab chiqaradi:
+--SELECT SUM(Quantity)
+FROM OrderDetails;--
+
+
+Bu select  a bilan boshlandadigan so'zlarni qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';--
+
+Bu select a bilan tugidigan sozlarni qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE '%a';--
+
+
+Bu select boshi va oxiridan ortasidan qidiradi:
+--SELECT * FROM Customers
+WHERE CustomerName LIKE '%or%';--
+
+Bu select boshi a bilan boshlanib oxiri o bilan tugidigan sozlani qidiradi:
+--SELECT * FROM Customers
+WHERE ContactName LIKE 'a%o';--
+
+
+Bu select boshi a ga teng bomagan sozlani chiqaradi:
+--SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'a%'--
+
+
+Bu select 10 va 20 orasidagi sonlani chiqaradi:
+--SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;--
+
+
+Bu select 10 va 20 orasida bomaganlani chiqaradi:
+--SELECT * FROM Products
+WHERE Price NOT BETWEEN 10 AND 20;--
+
+
+
+Оператор UNION используется для объединения результирующего набора из двух или более операторов SELECT.
+
+Каждый оператор SELECT в UNION должен иметь одинаковое количество столбцов
+Столбцы также должны иметь похожие типы данных.
+Столбцы в каждом операторе SELECT также должны быть в том же порядке
+--SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;--
+Следующая инструкция SQL возвращает города Германии (только отдельные значения) из таблицы «Клиенты» и «Поставщики»:
+SELECT City, Country FROM Customers
+WHERE Country='Germany'
+UNION
+SELECT City, Country FROM Suppliers
+WHERE Country='Germany'
+ORDER BY City;
+
+
+
+Оператор SQL CASE
+Оператор CASE проходит через условия и возвращает значение при выполнении первого условия (например, оператор IF-THEN-ELSE). Таким образом, когда условие выполнено, оно прекращает чтение и возвращает результат. Если никакие условия не выполняются, он возвращает значение в предложении ELSE.
+Если нет ELSE-части и условия не выполняются, возвращается NULL.
+Синтаксис CASE
+SELECT OrderID, Quantity,
+CASE
+    WHEN Quantity > 30 THEN "The quantity is greater than 30"
+    WHEN Quantity = 30 THEN "The quantity is 30"
+    ELSE "The quantity is under 30"
+END AS QuantityText
+FROM OrderDetails;
+Следующий SQL упорядочит клиентов по городам. Однако, если Город НЕДЕЙСТВИТЕЛЕН, тогда заказ по Стране:
+SELECT CustomerName, City, Country FROM Customers
+ORDER BY (CASE
+WHEN City IS NULL THEN Country
+ELSE City
+END);
+
+
+
+Bu select malumotlarni o'chiradi
+--DELETE FROM table_name WHERE condition;
+--DELETE FROM table_name;

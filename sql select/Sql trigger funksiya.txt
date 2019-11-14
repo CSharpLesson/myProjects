@@ -1,0 +1,34 @@
+Bu triger funksiya ikkita tablitsadigi malumotni bir biriga qo'shadi
+
+
+
+CREATE OR REPLACE FUNCTION public.pay_flat_hisob()
+  RETURNS trigger AS
+$BODY$
+
+begin
+  if (TG_OP='INSERT') then 
+    update flats set deb=coalesce(deb,0)+coalesce(new.pay_sum,0);
+    update flats set balans=(coalesce(balans,0)+(coalesce(deb,0)-coalesce(cre,0)))  
+    where new.ref_flat=flats.id;
+   -- new.date_upd=current_timestamp;
+	if (new.pay_num is null) then new.pay_num=nextval('gen_pay_num'); end if;
+    return new;
+  elsif (TG_OP='UPDATE') then 
+    update flats set deb=coalesce(deb,0)+coalesce(new.pay_sum,0);
+    update flats set balans=(coalesce(balans,0)+(coalesce(deb,0)-coalesce(cre,0)))  
+    where new.ref_flat=flats.id;
+   -- new.date_upd=current_timestamp;
+	if (new.pay_num is null) then new.pay_num=nextval('gen_pay_num'); end if;
+    return new;  
+  elsif (TG_OP='DELETE') then 
+    update flats set balans=coalesce(old.balans,0)-coalesce(old.pay_sum,0)
+   -- ,      coalesce(deb,0)=coalesce(deb,0)+coalesce(new.pay_sum,0)
+     where new.ref_flat=flats.id;
+    return old;
+  end if;    
+
+end;
+
+$BODY$
+  LANGUAGE plpgsql VOLATILE

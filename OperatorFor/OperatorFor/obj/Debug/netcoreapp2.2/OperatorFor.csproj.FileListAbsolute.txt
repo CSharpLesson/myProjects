@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\bin\Debug\netcoreapp2.2\OperatorFor.deps.json
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\bin\Debug\netcoreapp2.2\OperatorFor.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\bin\Debug\netcoreapp2.2\OperatorFor.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\bin\Debug\netcoreapp2.2\OperatorFor.dll
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\bin\Debug\netcoreapp2.2\OperatorFor.pdb
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.dll
+C:\Users\User\source\repos\Lesson\OperatorFor\OperatorFor\obj\Debug\netcoreapp2.2\OperatorFor.pdb

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\bin\Debug\netcoreapp2.2\Massiv.deps.json
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\bin\Debug\netcoreapp2.2\Massiv.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\bin\Debug\netcoreapp2.2\Massiv.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\bin\Debug\netcoreapp2.2\Massiv.dll
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\bin\Debug\netcoreapp2.2\Massiv.pdb
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.dll
+C:\Users\User\source\repos\Lesson\Massiv\Massiv\obj\Debug\netcoreapp2.2\Massiv.pdb

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Structs\Structs\bin\Debug\netcoreapp2.2\Structs.deps.json
+C:\Users\User\source\repos\Lesson\Structs\Structs\bin\Debug\netcoreapp2.2\Structs.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Structs\Structs\bin\Debug\netcoreapp2.2\Structs.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Structs\Structs\bin\Debug\netcoreapp2.2\Structs.dll
+C:\Users\User\source\repos\Lesson\Structs\Structs\bin\Debug\netcoreapp2.2\Structs.pdb
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.dll
+C:\Users\User\source\repos\Lesson\Structs\Structs\obj\Debug\netcoreapp2.2\Structs.pdb

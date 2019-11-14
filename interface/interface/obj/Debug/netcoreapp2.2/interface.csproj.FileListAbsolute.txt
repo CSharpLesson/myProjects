@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\interface\interface\bin\Debug\netcoreapp2.2\interface.deps.json
+C:\Users\User\source\repos\interface\interface\bin\Debug\netcoreapp2.2\interface.runtimeconfig.json
+C:\Users\User\source\repos\interface\interface\bin\Debug\netcoreapp2.2\interface.runtimeconfig.dev.json
+C:\Users\User\source\repos\interface\interface\bin\Debug\netcoreapp2.2\interface.dll
+C:\Users\User\source\repos\interface\interface\bin\Debug\netcoreapp2.2\interface.pdb
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.csprojAssemblyReference.cache
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.AssemblyInfo.cs
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.dll
+C:\Users\User\source\repos\interface\interface\obj\Debug\netcoreapp2.2\interface.pdb

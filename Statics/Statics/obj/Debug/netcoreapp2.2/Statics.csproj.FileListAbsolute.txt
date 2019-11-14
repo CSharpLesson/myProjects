@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Statics\Statics\bin\Debug\netcoreapp2.2\Statics.deps.json
+C:\Users\User\source\repos\Lesson\Statics\Statics\bin\Debug\netcoreapp2.2\Statics.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Statics\Statics\bin\Debug\netcoreapp2.2\Statics.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Statics\Statics\bin\Debug\netcoreapp2.2\Statics.dll
+C:\Users\User\source\repos\Lesson\Statics\Statics\bin\Debug\netcoreapp2.2\Statics.pdb
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.dll
+C:\Users\User\source\repos\Lesson\Statics\Statics\obj\Debug\netcoreapp2.2\Statics.pdb

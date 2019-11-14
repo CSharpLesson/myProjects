@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\bin\Debug\netcoreapp2.2\PerezagruskaOperatsii.deps.json
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\bin\Debug\netcoreapp2.2\PerezagruskaOperatsii.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\bin\Debug\netcoreapp2.2\PerezagruskaOperatsii.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\bin\Debug\netcoreapp2.2\PerezagruskaOperatsii.dll
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\bin\Debug\netcoreapp2.2\PerezagruskaOperatsii.pdb
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.dll
+C:\Users\User\source\repos\Lesson\PerezagruskaOperatsii\PerezagruskaOperatsii\obj\Debug\netcoreapp2.2\PerezagruskaOperatsii.pdb

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\bin\Debug\netcoreapp2.2\Massivparameter.deps.json
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\bin\Debug\netcoreapp2.2\Massivparameter.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\bin\Debug\netcoreapp2.2\Massivparameter.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\bin\Debug\netcoreapp2.2\Massivparameter.dll
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\bin\Debug\netcoreapp2.2\Massivparameter.pdb
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.dll
+C:\Users\User\source\repos\Lesson\Massivparameter\Massivparameter\obj\Debug\netcoreapp2.2\Massivparameter.pdb

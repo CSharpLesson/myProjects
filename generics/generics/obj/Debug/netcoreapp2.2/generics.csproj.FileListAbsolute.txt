@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\generics\generics\bin\Debug\netcoreapp2.2\generics.deps.json
+C:\Users\User\source\repos\Lesson\generics\generics\bin\Debug\netcoreapp2.2\generics.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\generics\generics\bin\Debug\netcoreapp2.2\generics.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\generics\generics\bin\Debug\netcoreapp2.2\generics.dll
+C:\Users\User\source\repos\Lesson\generics\generics\bin\Debug\netcoreapp2.2\generics.pdb
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.dll
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.pdb
+C:\Users\User\source\repos\Lesson\generics\generics\obj\Debug\netcoreapp2.2\generics.csprojAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\foeach\foeach\bin\Debug\netcoreapp2.2\foeach.deps.json
+C:\Users\User\source\repos\foeach\foeach\bin\Debug\netcoreapp2.2\foeach.runtimeconfig.json
+C:\Users\User\source\repos\foeach\foeach\bin\Debug\netcoreapp2.2\foeach.runtimeconfig.dev.json
+C:\Users\User\source\repos\foeach\foeach\bin\Debug\netcoreapp2.2\foeach.dll
+C:\Users\User\source\repos\foeach\foeach\bin\Debug\netcoreapp2.2\foeach.pdb
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.csprojAssemblyReference.cache
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.AssemblyInfo.cs
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.dll
+C:\Users\User\source\repos\foeach\foeach\obj\Debug\netcoreapp2.2\foeach.pdb

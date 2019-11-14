@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\bin\Debug\netcoreapp2.2\TypeZnacheniya.deps.json
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\bin\Debug\netcoreapp2.2\TypeZnacheniya.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\bin\Debug\netcoreapp2.2\TypeZnacheniya.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\bin\Debug\netcoreapp2.2\TypeZnacheniya.dll
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\bin\Debug\netcoreapp2.2\TypeZnacheniya.pdb
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.dll
+C:\Users\User\source\repos\Lesson\TypeZnacheniya\TypeZnacheniya\obj\Debug\netcoreapp2.2\TypeZnacheniya.pdb
