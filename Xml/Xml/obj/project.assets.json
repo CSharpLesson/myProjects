@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj",
       "projectName": "Xml",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

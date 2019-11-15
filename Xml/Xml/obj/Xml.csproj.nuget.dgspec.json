@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj": {
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj",
         "projectName": "Xml",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\Xml.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\Xml.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Xml\\Xml\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Xml\\Xml\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,10 +42,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
-            "Grpc.Core": {
-              "target": "Package",
-              "version": "[2.25.0, )"
-            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

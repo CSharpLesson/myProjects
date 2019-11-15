@@ -9,3 +9,14 @@ C:\Users\User\source\repos\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.AssemblyInfoInput
 C:\Users\User\source\repos\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.AssemblyInfo.cs
 C:\Users\User\source\repos\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.dll
 C:\Users\User\source\repos\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.pdb
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\bin\Debug\netcoreapp2.2\Xml.deps.json
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\bin\Debug\netcoreapp2.2\Xml.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\bin\Debug\netcoreapp2.2\Xml.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\bin\Debug\netcoreapp2.2\Xml.dll
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\bin\Debug\netcoreapp2.2\Xml.pdb
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.dll
+C:\Users\User\source\repos\Lesson\myProjects\Xml\Xml\obj\Debug\netcoreapp2.2\Xml.pdb
