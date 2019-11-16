@@ -217,7 +217,105 @@ CreateAttribute: создает узел типа XmlAttribute
 CreateTextNode: создает узел типа XmlTextNode
 
 CreateComment: создает комментарий
+
+
+Выберем все узлы <user>:
+
+1
+XmlNodeList childnodes = xRoot.SelectNodes("user");
+
+
+                
+Выведем на консоль значения атрибутов name у элементов user:
+
+XmlNodeList childnodes = xRoot.SelectNodes("user");
+foreach (XmlNode n in childnodes)
+    Console.WriteLine(n.SelectSingleNode("@name").Value);
+    Выберем узел, у которого атрибут name имеет значение "Bill Gates":
+
+
+XmlNode childnode = xRoot.SelectSingleNode("user[@name='Bill Gates']");
+if (childnode != null)
+    Console.WriteLine(childnode.OuterXml);
+Выберем узел, у которого вложенный элемент "company" имеет значение "Microsoft":
+
+
+XmlNode childnode = xRoot.SelectSingleNode("user[company='Microsoft']");
+if (childnode != null)
+    Console.WriteLine(childnode.OuterXml);
+Допустим, нам надо получить только компании. Для этого надо осуществить выборку вниз по иерархии элементов:
+
+XmlNodeList childnodes = xRoot.SelectNodes("//user/company");
+foreach (XmlNode n in childnodes)
+    Console.WriteLine(n.InnerText);
+
+
+
+            Еще один подход к работе с Xml представляет технология LINQ to XML. Вся функциональность LINQ to XML содержится в пространстве имен System.Xml.Linq. Рассмотрим основные классы этого пространства имен:
+
+XAttribute: представляет атрибут xml-элемента
+
+XComment: представляет комментарий
+
+XDocument: представляет весь xml-документ
+
+XElement: представляет отдельный xml-элемент
+
+Ключевым классом является XElement, который позволяет получать вложенные элементы и управлять ими. Среди его методов можно отметить следующие:
+
+Add(): добавляет новый атрибут или элемент
+
+Attributes(): возвращает коллекцию атрибутов для данного элемента
+
+Elements(): возвращает все дочерние элементы данного элемента
+
+Remove(): удаляет данный элемент из родительского объекта
+
+RemoveAll(): удаляет все дочерние элементы и атрибуты у данного элемента
+
+Итак, используем функциональность LINQ to XML и создадим новый XML-документ:
+
+
+XDocument xdoc = new XDocument();
+// создаем первый элемент
+XElement iphone6 = new XElement("phone");
+// создаем атрибут
+XAttribute iphoneNameAttr = new XAttribute("name", "iPhone 6");
+XElement iphoneCompanyElem = new XElement("company", "Apple");
+XElement iphonePriceElem = new XElement("price", "40000");
+// добавляем атрибут и элементы в первый элемент
+iphone6.Add(iphoneNameAttr);
+iphone6.Add(iphoneCompanyElem);
+iphone6.Add(iphonePriceElem);
+ 
+// создаем второй элемент
+XElement galaxys5 = new XElement("phone");
+XAttribute galaxysNameAttr = new XAttribute("name", "Samsung Galaxy S5");
+XElement galaxysCompanyElem = new XElement("company", "Samsung");
+XElement galaxysPriceElem = new XElement("price", "33000");
+galaxys5.Add(galaxysNameAttr);
+galaxys5.Add(galaxysCompanyElem);
+galaxys5.Add(galaxysPriceElem);
+// создаем корневой элемент
+XElement phones = new XElement("phones");
+// добавляем в корневой элемент
+phones.Add(iphone6);
+phones.Add(galaxys5);
+// добавляем корневой элемент в документ
+xdoc.Add(phones);
+//сохраняем документ
+xdoc.Save("phones.xml");
+Чтобы создать документ, нам нужно создать объект класса XDocument. Это объект самого верхнего уровня в хml-документе.
+
+Элементы создаются с помощью конструктора класса XElement. Конструктор имеет ряд перегруженных версий. Первый параметр конструктора передает название элемента, например, phone. Второй параметр передает значение этого элемента.
+
+Создание атрибута аналогично созданию элемента. Затем все атрибуты и элементы добавляются в элементы phone с помощью метода Add().
+
+Так как документ xml должен иметь один корневой элемент, то затем все элементы phone добавляются в один контейнер - элемент phones.
+
+В конце корневой элемент добавляется в объект XDocument, и этот объект сохраняется на диске в xml-файл с помощью метода Save().
              */
+
 
         }
     }
