@@ -32,7 +32,7 @@ namespace LINQS
             //var result = players.Join(teams, // второй набор
             // p => p.Team, // свойство-селектор объекта из первого набора
             // t => t.Name, // свойство-селектор объекта из второго набора
-             (p, t) => new { Name = p.Name, Team = p.Team, Country = t.Country }); // результат
+            //(p, t) => new { Name = p.Name, Team = p.Team, Country = t.Country }); // результат
             //            int[] numbers = { 1, 2, 3, 4, 10, 34, 55, 66, 77, 88 };
             //            List<User> users = new List<User>()
             //           {
@@ -182,7 +182,7 @@ LINQ (Language-Integrated Query) представляет простой и уд
 *Last: выбирает последний элемент коллекции
 *LastOrDefault: выбирает последний элемент коллекции или возвращает значение по умолчанию*/
 
-
+            int i={1,2,3,4,5,6,7,8,9,0};
         }
     }
 }

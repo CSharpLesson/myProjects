@@ -199,7 +199,9 @@ namespace FirstApp
             {
                 Console.WriteLine($"Name:{i.Name}  Age:{i.Age}");
             }
+            
             Console.Read();
+
 
             // boshqacha variyant
             //using (ApplicationContext db = new ApplicationContext())
@@ -267,6 +269,21 @@ namespace FirstApp
             //    }
             //}
             //Console.Read();
+
+           // public List<int> GetAllChildCategories(int categoryId)
+       // {
+        //    var sql = @"WITH RECURSIVE c AS (
+         //                  SELECT {0} AS id
+           //                UNION ALL
+            //               SELECT sa.id
+             //              FROM sp_categories AS sa
+              //                JOIN c ON c.id = sa.parent_id
+               //         )
+               //         SELECT id FROM c; ";
+
+  //          var list = _context.DataContext.Query<GetAllParentCategoryQueryModel>().FromSql(sql, categoryId).Select(s => s.Id).ToList(); bu selectni Iqueryble qilib ishlatish
+           // return list;
+        }
         }
     }
 }

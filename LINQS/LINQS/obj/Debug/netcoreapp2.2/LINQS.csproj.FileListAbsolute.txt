@@ -9,3 +9,14 @@ C:\Users\User\source\repos\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.AssemblyInf
 C:\Users\User\source\repos\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.AssemblyInfo.cs
 C:\Users\User\source\repos\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.dll
 C:\Users\User\source\repos\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.pdb
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.dll
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\obj\Debug\netcoreapp2.2\LINQS.pdb
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\bin\Debug\netcoreapp2.2\LINQS.deps.json
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\bin\Debug\netcoreapp2.2\LINQS.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\bin\Debug\netcoreapp2.2\LINQS.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\bin\Debug\netcoreapp2.2\LINQS.dll
+C:\Users\User\source\repos\Lesson\myProjects\LINQS\LINQS\bin\Debug\netcoreapp2.2\LINQS.pdb
