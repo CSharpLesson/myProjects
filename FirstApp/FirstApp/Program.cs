@@ -202,7 +202,9 @@ namespace FirstApp
             
             Console.Read();
 
-
+            //var comps = db.companies.fromsqlraw("select * from companies").tolist();
+    //foreach (var company in comps)
+       // console.writeline(company.name);
             // boshqacha variyant
             //using (ApplicationContext db = new ApplicationContext())
             //{
