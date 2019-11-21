@@ -182,7 +182,89 @@ LINQ (Language-Integrated Query) представляет простой и уд
 *Last: выбирает последний элемент коллекции
 *LastOrDefault: выбирает последний элемент коллекции или возвращает значение по умолчанию*/
 
-            int i={1,2,3,4,5,6,7,8,9,0};
+            //public static void Main(string[] args)
+            //{
+            //    using (ApplicationContext db = new ApplicationContext())
+            //    {
+            //        // добавляем начальные данные
+            //        Company microsoft = new Company { Name = "Microsoft" };
+            //        Company google = new Company { Name = "Google" };
+            //        db.Companies.AddRange(microsoft, google);
+            //        db.SaveChanges();
+            //        User tom = new User { Name = "Tom", Company = microsoft };
+            //        User bob = new User { Name = "Bob", Company = google };
+            //        User alice = new User { Name = "Alice", Company = microsoft };
+            //        User kate = new User { Name = "Kate", Company = google };
+            //        db.Users.AddRange(tom, bob, alice, kate);
+            //        db.SaveChanges();
+
+            //        // получаем пользователей
+            //        var users = db.Users
+            //            .Include(u => u.Company)  // добавляем данные по компаниям
+            //            .ToList();
+            //        foreach (var user in users)
+            //            Console.WriteLine($"{user.Name} - {user.Company?.Name}");
+            //    }
+            //    Console.Read();// forenkiyni bir biriga ulash
+            //Like funktsiya
+            //using (ApplicationContext db = new ApplicationContext())
+            //{
+            //    var phones = db.Phones.Where(p => EF.Functions.Like(p.Name, "%Galaxy%"));
+            //    foreach (Phone phone in phones)
+            //        Console.WriteLine($"{phone.Name} ({phone.Price})");
+            //}
+            /*
+             * %: соответствует любой подстроке, которая может иметь любое количество символов, при этом подстрока может и не содержать ни одного символа
+
+            _: соответствует любому одиночному символу
+
+            [ ]: соответствует одному символу, который указан в квадратных скобках
+
+            [ - ]: соответствует одному символу из определенного диапазона
+
+            [ ^ ]: соответствует одному символу, который не указан после символа ^
+             */
+            //Другая версия метода FromSqlRaw() позволяет использовать параметры.Например, выберем из бд все модели, в названии которых есть подстрока "Galaxy":
+
+            //SqlParameter param = new SqlParameter("@name", "%Galaxy%");
+            //var phones = db.Phones.FromSqlRaw("SELECT * FROM Phones WHERE Name LIKE @name", param).ToList();
+            //foreach (var phone in phones)
+            //    Console.WriteLine(phone.Name);
+            /*
+             * ExecuteSqlRaw
+             * Метод FromSqlRaw() осуществляет выборку из БД, но кроме выборки нам, возможно, придется удалять, обновлять уже существующие или вставлять новые записи. Для этой цели применяется метод ExecuteSqlRaw(), который возвращает количество затронутых командой строк. Для его вызова у контекста данных используется свойство Database:
+             */
+            // вставка
+            //string newComp = "Nokia";
+            //int numberOfRowInserted = db.Database.ExecuteSqlRaw("INSERT INTO Companies (Name) VALUES ({0})", newComp);
+
+            //// обновление
+            //string hmd = "HMD Global";
+            //string nokia = "Nokia";
+            //int numberOfRowUpdated = db.Database.ExecuteSqlRaw("UPDATE Companies SET Name={0} WHERE Name={1}", hmd, nokia);
+
+            //// удаление
+            //int numberOfRowDeleted = db.Database.ExecuteSqlRaw("DELETE FROM Companies WHERE Name={0}", hmd);
+            //comps = db.Companies.FromSqlRaw("SELECT * FROM Companies").ToList();
+
+            //Интерполяция строк
+            //Для методов FromSqlRaw и ExecuteSqlRaw в EF Core определены их двойники - методы FromSqlInterpolated() и ExecuteSqlInterpolated() соответственно, которые позволяют использовать интерполяцию строк для передачи параметров. Пример с FromSqlInterpolated:
+            //using (ApplicationContext db = new ApplicationContext())
+            //{
+            //    var name = "%Galaxy%";
+            //    var price = 30000;
+            //    var phones = db.Phones.FromSqlInterpolated($"SELECT * FROM Phones WHERE Name LIKE {name} AND Price > {price}").ToList();
+            //    foreach (var phone in phones)
+            //        Console.WriteLine(phone.Name);
+            //}
+            //using (ApplicationContext db = new ApplicationContext())
+            //{
+            //    string google = "Google";
+            //    db.Database.ExecuteSqlInterpolated($"INSERT INTO Companies (Name) VALUES ({google})");
+
+            //    foreach (var comp in db.Companies.ToList())
+            //        Console.WriteLine(comp.Name);
+            //}
         }
     }
 }

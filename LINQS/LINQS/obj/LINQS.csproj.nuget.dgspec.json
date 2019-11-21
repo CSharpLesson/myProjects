@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\LINQS\\LINQS\\LINQS.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\LINQS\\LINQS\\LINQS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\LINQS\\LINQS\\LINQS.csproj": {
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\LINQS\\LINQS\\LINQS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\LINQS\\LINQS\\LINQS.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\LINQS\\LINQS\\LINQS.csproj",
         "projectName": "LINQS",
-        "projectPath": "C:\\Users\\User\\source\\repos\\LINQS\\LINQS\\LINQS.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\LINQS\\LINQS\\LINQS.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\LINQS\\LINQS\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\LINQS\\LINQS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
