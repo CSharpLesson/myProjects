@@ -14,3 +14,28 @@ where (sd.ref_flat=f.id)and (sd.ref_services=s.id);
 end;
 $$
 language plpgsql;
+
+
+ bu functsiya bazadan masoviy ozgartirish qiladi;
+create function copy_product4 ()
+  returns table (upd_count int, ins_count int) as 
+  $$
+  declare 
+  upd_count int=0; -- bu yerda peremini beriladi
+  ins_count int=0; -- bu yerda peremini beriladi
+  begin
+  update rem_product_company set -- bu yerda update qiladi
+  "price" = rem_product_company_copy."price", 
+    "quantity" = rem_product_company_copy."quantity"
+from rem_product_company_copy 
+where rem_product_company."rem_product_id" = rem_product_company_copy."rem_product_id";
+GET DIAGNOSTICS upd_count = ROW_COUNT; -- bu neshta update boganini tekshiradi
+
+insert into rem_product_company (company_id, name, amount, measure_id, rem_product_id, code, price, quantity)
+  select tcopy.company_id, tcopy.name, tcopy.amount, tcopy.measure_id, tcopy.rem_product_id, tcopy.code, tcopy.price, tcopy.quantity 
+  from rem_product_company_copy as tcopy where tcopy.rem_product_id not in (select rem_product_id from  rem_product_company );
+  GET DIAGNOSTICS ins_count = ROW_COUNT; bu nechta insert boganini tekshiradi
+  
+  select upd_count, ins_count;
+    end;
+  $$ LANGUAGE plpgsql;

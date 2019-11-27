@@ -265,6 +265,39 @@ LINQ (Language-Integrated Query) представляет простой и уд
             //    foreach (var comp in db.Companies.ToList())
             //        Console.WriteLine(comp.Name);
             //}
+
+
+            //public List<int> ChangeCompanyProduct(int categoryId)
+            //{
+            //    var sql = @"WITH RECURSIVE c AS (
+            //               SELECT {0} AS id
+            //               UNION ALL
+            //               SELECT sa.id
+            //               FROM sp_categories AS sa
+            //                  JOIN c ON c.id = sa.parent_id
+            //            )
+            //            SELECT id FROM c; ";
+
+            //    var list = _context.DataContext.Query<GetAllParentCategoryQueryModel>().FromSql(sql, categoryId).Select(s => s.Id).ToList();
+            //} 
+
+
+
+
+            // postgres  funksiyani chaqiradigan funksiya
+            /// <summary>
+            /// var sql = @"select * from copy_product();";
+            ///var func = _context.DataContext.Query<ProductCompanyCopyInfo>().FromSql(sql).ToList(); shu funcsiya chaqiradi unga 1 ta model ochiladi va model ichiga
+            ///bu ProductCompanyCopyInfo model
+            ///[Column("upd_count")]
+            ///public int Update { get; set; }
+            ///[Column("ins_count")]
+            ///public int Insert { get; set; }
+            /// qaytadigan parameterlarini yozamiz             /// 
+            /// va modelni shunaqa qilib datacontextda korsatamiz
+            /// public DbQuery<ProductCompanyCopyInfo> ProductCompanyCopyInfo{ get; set; }
+            /// </summary>
+
         }
     }
 }
