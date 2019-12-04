@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<phones>
+  <phone>
+    <company>Apple</company>
+    <price>40000{Convert.ToString(i)}</price>
+  </phone>
+  <phone>
+    <company>Apple</company>
+    <price>40000{Convert.ToString(i)}</price>
+  </phone>
+  <phone>
+    <company>Apple</company>
+    <price>40000{Convert.ToString(i)}</price>
+  </phone>
+  <phone>
+    <company>Apple</company>
+    <price>40000{Convert.ToString(i)}</price>
+  </phone>
+  <phone>
+    <company>Apple</company>
+    <price>40000{Convert.ToString(i)}</price>
+  </phone>
+</phones>

@@ -5,16 +5,42 @@ using System.Xml.Linq;
 
 namespace Xml
 {
-    class Odinc
-    {
-        public string Name { get; set; }
-    }
+    
     class Program
     {
-       
+
 
         static void Main(string[] args)
         {
+            XDocument xdoc = new XDocument();
+            // создаем первый элемент
+            XElement iphone6 = new XElement("phone");
+            XElement phones = new XElement("phones");
+            // создаем атрибут
+            for (int i = 0; i < 5; i++)
+            {
+                
+                XElement iphoneCompanyElem = new XElement("company", "Apple");
+                XElement iphonePriceElem = new XElement("price", "40000{Convert.ToString(i)}");
+                // добавляем атрибут и элементы в первый элемент
+               
+                iphone6.Add(iphoneCompanyElem);
+                iphone6.Add(iphonePriceElem);
+                phones.Add(iphone6);
+                iphone6 = new XElement("phone");
+            }          
+           
+            // создаем второй элемент
+
+            // создаем корневой элемент
+
+            // добавляем в корневой элемент
+            
+
+            // добавляем корневой элемент в документ
+            xdoc.Add(phones);
+            //сохраняем документ
+            xdoc.Save("phoness.xml");
             // Bu kod web dasturda fileni wwwroot ni ichiga yozadi
             //////путь к папке Files
             //string path = "\\ImportXML\\" + uploadedFile.FileName; wwwroot ni ichiga fileni nomini berib uni joylashtirish
@@ -26,9 +52,10 @@ namespace Xml
 
 
 
-            //Odinc odinc = new Odinc();
-            //XmlDocument xmlDoc = new XmlDocument();
-            //xmlDoc.Load("C:\\Project\\txt.xml");
+
+        }
+    }
+}
             //XmlNodeList nodeList = xmlDoc.DocumentElement.SelectNodes("/Table/Product");
             //string proID = "", proName = "", price = "";
             //foreach (XmlNode node in nodeList)
@@ -95,10 +122,10 @@ namespace Xml
             //    }
             //}
 
-            XmlDocument xDoc = new XmlDocument();
-            xDoc.Load("C:/Project/productsKolberg.xml");
-            //// получим корневой элемент
-            XmlElement xRoot = xDoc.DocumentElement;
+            //XmlDocument xDoc = new XmlDocument();
+            //xDoc.Load("C:/Project/productsKolberg.xml");
+            ////// получим корневой элемент
+            //XmlElement xRoot = xDoc.DocumentElement;
             //// обход всех узлов в корневом элементе
             //foreach (XmlNode xnode in xRoot)
             //{
@@ -157,10 +184,10 @@ namespace Xml
 
             //XmlNode firstNode = xRoot.FirstChild;
             //xRoot.RemoveChild(firstNode);
-            //xDoc.Save("D://users.xml");
-            XmlNodeList childnodes = xRoot.SelectNodes("Наименование");
-            foreach (XmlNode n in childnodes)
-                Console.WriteLine(n.Value);
+            ////xDoc.Save("D://users.xml");
+            //XmlNodeList childnodes = xRoot.SelectNodes("Наименование");
+            //foreach (XmlNode n in childnodes)
+            //    Console.WriteLine(n.Value);
 
             /*
              * XmlNode: представляет узел xml. В качестве узла может использоваться весь документ, так и отдельный элемент
@@ -317,6 +344,5 @@ xdoc.Save("phones.xml");
              */
 
 
-        }
-    }
-}
+      
+
