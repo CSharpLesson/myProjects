@@ -19,11 +19,11 @@ namespace Xml
             // создаем атрибут
             for (int i = 0; i < 5; i++)
             {
-                
+                XElement name = new XElement("name", "asdasd");
                 XElement iphoneCompanyElem = new XElement("company", "Apple");
                 XElement iphonePriceElem = new XElement("price", "40000{Convert.ToString(i)}");
                 // добавляем атрибут и элементы в первый элемент
-               
+                iphone6.Add(name);
                 iphone6.Add(iphoneCompanyElem);
                 iphone6.Add(iphonePriceElem);
                 phones.Add(iphone6);
@@ -40,7 +40,7 @@ namespace Xml
             // добавляем корневой элемент в документ
             xdoc.Add(phones);
             //сохраняем документ
-            xdoc.Save("phoness.xml");
+            xdoc.Save(@"C:\Users\User\Desktop\zakaz.xml");
             // Bu kod web dasturda fileni wwwroot ni ichiga yozadi
             //////путь к папке Files
             //string path = "\\ImportXML\\" + uploadedFile.FileName; wwwroot ni ichiga fileni nomini berib uni joylashtirish
