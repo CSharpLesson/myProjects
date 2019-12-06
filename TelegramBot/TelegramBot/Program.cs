@@ -11,7 +11,7 @@ namespace TelegramBot
 {
     class Program
     {
-        private static readonly TelegramBotClient Bot = new TelegramBotClient("866100039:AAEmF8Pu1hqhimHXh4_62RBNfv28ZeAlQWM");
+        private static readonly TelegramBotClient Bot = new TelegramBotClient("866100039:AAEmF8Pu1hqhimHXh4_62RBNfv28ZeAlQWM"); //token yozish uchun
         static void Main(string[] args)
         {
             Bot.OnMessage += Bot_OnMessage;
@@ -28,17 +28,18 @@ namespace TelegramBot
 
         private static void Bot_OnMessage(object sender, Telegram.Bot.Args.MessageEventArgs e)
         {
-            var stream = new FileStream(@"C:\Users\User\Desktop\1.jpg", FileMode.Open);            
-            var fileToSend = new FileToSend("asdasdas", stream);
-            var RequestReplyKeyboard = new ReplyKeyboardMarkup(new[]
+            //file jonatishni boshlang'ichi
+            var stream = new FileStream(@"C:\Users\User\Desktop\1.jpg", FileMode.Open);  // faylni yuklab olindi          
+            var fileToSend = new FileToSend("asdasdas", stream); //filetosendga fileni tiqildi
+            var RequestReplyKeyboard = new ReplyKeyboardMarkup(new[]// bu yerda location qabul qilish ishlatilvotdi
                         {
-                            new KeyboardButton("Location") { RequestLocation = true }
+                            new KeyboardButton("Location") { RequestLocation = true } //keyboard bilan locationi qabul qilinvotdi
                         });
 
             var result = Bot.SendTextMessageAsync(e.Message.Chat.Id, "Who or Where are you?", replyMarkup: RequestReplyKeyboard);
-            //Console.WriteLine(e.Message.Location.Longitude+ " :Longitude   " + e.Message.Location.Latitude+ " :Latitude");
+            Console.WriteLine(e.Message.Location.Longitude+ " :Longitude   " + e.Message.Location.Latitude+ " :Latitude"); //locationni langetud va latetudesini consolga yozilvotdi
             Bot.SendLocationAsync(e.Message.Chat.Id, e.Message.Location.Latitude, e.Message.Location.Longitude);
-            Bot.SendPhotoAsync(e.Message.Chat.Id, fileToSend);
+            Bot.SendPhotoAsync(e.Message.Chat.Id, fileToSend);// file jonatildi
             //Console.WriteLine(e.Message.Date);
 
             if (e.Message.Type==Telegram.Bot.Types.Enums.MessageType.TextMessage)
