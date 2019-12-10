@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user1\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\source\\repos\\Stwich\\Stwich\\Stwich.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Stwich\\Stwich\\Stwich.csproj",
       "projectName": "Stwich",
-      "projectPath": "C:\\Users\\user1\\source\\repos\\Stwich\\Stwich\\Stwich.csproj",
-      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\source\\repos\\Stwich\\Stwich\\obj\\",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Stwich\\Stwich\\Stwich.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Stwich\\Stwich\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -712,6 +712,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\172.17.9.248\\open\\nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -729,6 +730,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
