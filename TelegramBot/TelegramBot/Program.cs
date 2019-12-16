@@ -54,7 +54,9 @@ namespace TelegramBot
          };
             Bot.SendTextMessageAsync(e.Message.Chat.Id, "Text", ParseMode.Default, false, false, 0, rkm);
             //inline yasash
-            var inlineKeyboard = new InlineKeyboardMarkup(new[] { new[] { InlineKeyboardButton.WithCallbackData("asdas", "1") } });
+            var inlineKeyboard = new InlineKeyboardMarkup(new[] { new[] { InlineKeyboardButton.WithCallbackData("asdas", "1") },
+            new[] { InlineKeyboardButton.WithCallbackData("asdasdd", "2") } ,
+            new[] { InlineKeyboardButton.WithCallbackData("asdasd", "3") } });
             Bot.SendTextMessageAsync(e.Message.Chat.Id, "-->", replyMarkup: inlineKeyboard);
 
             
