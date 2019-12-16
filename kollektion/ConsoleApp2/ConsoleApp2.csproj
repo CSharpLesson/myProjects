@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TextMagicClient" Version="2.0.951" />
+    <PackageReference Include="TextmagicRest" Version="1.0.0.5" />
+  </ItemGroup>
+
+</Project>
