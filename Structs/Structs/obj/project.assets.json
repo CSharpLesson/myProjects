@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\Structs\\Structs\\Structs.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Structs\\Structs\\Structs.csproj",
       "projectName": "Structs",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\Structs\\Structs\\Structs.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Structs\\Structs\\Structs.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\Structs\\Structs\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\Structs\\Structs\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Lesson\\File\\File\\File.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\File\\File\\File.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Lesson\\File\\File\\File.csproj": {
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\File\\File\\File.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\File\\File\\File.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\File\\File\\File.csproj",
         "projectName": "File",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\File\\File\\File.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\File\\File\\File.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\File\\File\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\File\\File\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
