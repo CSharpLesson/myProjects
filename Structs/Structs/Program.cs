@@ -1,15 +1,16 @@
-﻿using System;
+﻿using  static System.Console;
+using static System.Convert;
 
 namespace Structs
 {
-    //klass bu silichniy tip struktura esa referens tip yani agar 2 marta  struktuni chaqirsa 2 ta yangi obyekt sazdat qiladi agar unga znacheniya bermasa 0 yoki null bolib turadi strukturaga misol string double vaho kazo peremenila
+    //klass bu silichniy tip struktura esa referens tip yani agar 2 marta  struktuni chaqirsa 2 ta yangi obyekt sazdat qiladi agar unga znacheniya bermasa 0 yoki null bolib turadi strukturaga misol  double vaho kazo peremenila
     struct User {
        // public string name = "Sam";      ! Ошибка
        // public int age = 23;             ! Ошибка
         public string name;
         public int age;
         public void Info() {
-            Console.WriteLine($"Ism: {name} Yosh:  {age}");
+            WriteLine($"Ism: {name} Yosh:  {age}");
         }
         public User(string name, int age)
         {
