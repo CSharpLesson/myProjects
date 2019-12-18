@@ -24,7 +24,7 @@ namespace TelegramBot
 
         private static void Bot_OnCallbackQuery(object sender, Telegram.Bot.Args.CallbackQueryEventArgs e)
         {
-            Console.WriteLine(e.CallbackQuery.Data);
+            Console.WriteLine(e.CallbackQuery.Data+" "+e.CallbackQuery.From.Id);
         }
 
         private static void Bot_OnMessage(object sender, Telegram.Bot.Args.MessageEventArgs e)
@@ -54,9 +54,9 @@ namespace TelegramBot
          };
             Bot.SendTextMessageAsync(e.Message.Chat.Id, "Text", ParseMode.Default, false, false, 0, rkm);
             //inline yasash
-            var inlineKeyboard = new InlineKeyboardMarkup(new[] { new[] { InlineKeyboardButton.WithCallbackData("asdas", "1") },
-            new[] { InlineKeyboardButton.WithCallbackData("asdasdd", "2") } ,
-            new[] { InlineKeyboardButton.WithCallbackData("asdasd", "3") } });
+            var inlineKeyboard = new InlineKeyboardMarkup(new[] { new[] { InlineKeyboardButton.WithCallbackData("asdas") },
+            new[] { InlineKeyboardButton.WithCallbackData("asdasdd" ) } ,
+            new[] { InlineKeyboardButton.WithCallbackData("asdasd") } });
             Bot.SendTextMessageAsync(e.Message.Chat.Id, "-->", replyMarkup: inlineKeyboard);
 
             
