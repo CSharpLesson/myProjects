@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DlibDotNet" Version="19.16.0.20190313" />
+    <PackageReference Include="OpenCvSharp4" Version="4.1.1.20191216" />
+    <PackageReference Include="OpenCvSharp4.runtime.win" Version="4.1.1.20191216" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.1.1.20191216" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="a\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\User\.nuget\packages\dlibdotnet\19.18.0.20191202\build\..\runtimes\win-AnyCPU\native\DlibDotNetNative.dll" Link="a\DlibDotNetNative.dll" />
+    <Content Update="C:\Users\User\.nuget\packages\dlibdotnet\19.18.0.20191202\build\..\runtimes\win-AnyCPU\native\DlibDotNetNativeDnn.dll" Link="a\DlibDotNetNativeDnn.dll" />
+  </ItemGroup>
+
+</Project>
