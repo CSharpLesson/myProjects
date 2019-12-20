@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="C:\Users\User\.nuget\packages\dlibdotnet\19.18.0.20191202\build\..\runtimes\win-AnyCPU\native\DlibDotNetNative.dll" Link="a\DlibDotNetNative.dll" />
-    <Content Update="C:\Users\User\.nuget\packages\dlibdotnet\19.18.0.20191202\build\..\runtimes\win-AnyCPU\native\DlibDotNetNativeDnn.dll" Link="a\DlibDotNetNativeDnn.dll" />
+    <Content Update="a\DlibDotNetNative.dll" Link="a\DlibDotNetNative.dll" />
+    <Content Update="a\DlibDotNetNative.dll" Link="a\DlibDotNetNativeDnn.dll" />
   </ItemGroup>
 
 </Project>
