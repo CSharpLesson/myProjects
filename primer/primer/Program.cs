@@ -26,8 +26,9 @@ namespace primer
             int y = 6;
             Swap<int>(ref x, ref y);
             Console.WriteLine(x + "  " + y);
-
-
+            Person p = new Person() { Name="AA"};
+            Employ e = new Employ() {Name="Hello",Company="Wdasd" };
+            e.Display();
 
             //Create new Excel WorkBook document. 
             //WorkBook xlsxWorkbook = WorkBook.Create(ExcelFileFormat.XLSX);
@@ -49,31 +50,25 @@ namespace primer
             y = temp;
         }
     }
-    //class Person
-    //{
-    //    public string Name { get; set; }
-    //    public Person(string name)
-    //    {
-    //        Name = name;
-    //    }
-    //    public void Display()
-    //    {
-    //        Console.WriteLine(Name );
-    //    }
-    //}
-    //class Employ:Person
-    //{
+    class Person
+    {
+        public string Name { get; set; }
+        
+        public void Display()
+        {
+            Console.WriteLine(Name);
+        }
+    }
+    class Employ : Person
+    {
 
-    //    public string Company { get; set; }
-    //    public Employ(string name, string company) : base(name)
-    //    {
-    //        Company = company;
-    //    }
-    //    public void Display()
-    //    {
-    //        Console.WriteLine($"{Name}   {Company}");
-    //    }
-    //}
+        public string Company { get; set; }        
+        public void Display()
+        {
+            base.Display();
+            Console.WriteLine($"{Name}   {Company}");
+        }
+    }
     class Account<T>//generic klass
     {
         public T Id { get; set; }
