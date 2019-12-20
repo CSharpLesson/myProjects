@@ -1,6 +1,8 @@
 ﻿using OfficeOpenXml;
 using System;
 using IronXL;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace primer
 {
@@ -8,27 +10,37 @@ namespace primer
     {
         static void Main(string[] args)
         {
+            List<User> users = new List<User>()
+{
+    new User { Name = "Tom", Age = 33 },
+    new User { Name = "Bob", Age = 30 },
+    new User { Name = "Tom", Age = 21 },
+    new User { Name = "Sam", Age = 43 }
+};
 
-            Account<int> ac1 = new Account<int>(); //generic class
-            Account<string> ac2 = new Account<string>();
-            ac1.Id = 45;
-            ac2.Id = "455";
-            string strid = ac2.Id;
-            int intid = ac1.Id;
-            Console.WriteLine($"ac1 {intid }   ac2{strid} ");
-            Trans<Account<int>, string> trans =
-                new Trans<Account<int>, string>()
-                {
-                    From=ac1,
-                    To=ac1
-                };
-            int x = 34;
-            int y = 6;
-            Swap<int>(ref x, ref y);
-            Console.WriteLine(x + "  " + y);
-            Person p = new Person() { Name="AA"};
-            Employ e = new Employ() {Name="Hello",Company="Wdasd" };
-            e.Display();
+            var result = users.OrderBy(u => u.Name).ThenBy(u => u.Age);
+            foreach (var item in result)
+                Console.WriteLine($"{item.Name} - {item.Age}");
+            //Account<int> ac1 = new Account<int>(); //generic class
+            //Account<string> ac2 = new Account<string>();
+            //ac1.Id = 45;
+            //ac2.Id = "455";
+            //string strid = ac2.Id;
+            //int intid = ac1.Id;
+            //Console.WriteLine($"ac1 {intid }   ac2{strid} ");
+            //Trans<Account<int>, string> trans =
+            //    new Trans<Account<int>, string>()
+            //    {
+            //        From=ac1,
+            //        To=ac1
+            //    };
+            //int x = 34;
+            //int y = 6;
+            //Swap<int>(ref x, ref y);
+            //Console.WriteLine(x + "  " + y);
+            //Person p = new Person() { Name="AA"};
+            //Employ e = new Employ() {Name="Hello",Company="Wdasd" };
+            //e.Display();
 
             //Create new Excel WorkBook document. 
             //WorkBook xlsxWorkbook = WorkBook.Create(ExcelFileFormat.XLSX);
@@ -53,7 +65,7 @@ namespace primer
     class Person
     {
         public string Name { get; set; }
-        
+        public int Age { get; set; }
         public void Display()
         {
             Console.WriteLine(Name);
@@ -62,7 +74,8 @@ namespace primer
     class Employ : Person
     {
 
-        public string Company { get; set; }        
+        public string Company { get; set; }
+        
         public void Display()
         {
             base.Display();
@@ -79,5 +92,11 @@ namespace primer
         public I From { get; set; }
         public I To { get; set; }
         public A Code { get; set; }
+    }
+    class User
+    {
+        public string Name { get; set; }
+        public int Age { get; set; }
+
     }
 }

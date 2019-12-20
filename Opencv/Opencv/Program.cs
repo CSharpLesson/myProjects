@@ -20,6 +20,7 @@ namespace Opencv
                 {
                     // draw a rectangle for each face
                     Dlib.DrawRectangle(img, face, color: new RgbPixel(0, 255, 255), thickness: 4);
+                    
                 }
                 Dlib.SaveJpeg(img, "1.jpg");
             }

@@ -148,7 +148,7 @@ LINQ (Language-Integrated Query) представляет простой и уд
 *Where: определяет фильтр выборки
 *OrderBy: упорядочивает элементы по возрастанию
 *OrderByDescending: упорядочивает элементы по убыванию
-*ThenBy: задает дополнительные критерии для упорядочивания элементов возрастанию
+*ThenBy: задает дополнительные критерии для упорядочивания элементов возрастанию birinchi orderby qiladi yani perilgan parameter bilan sartirovka qiladi va undan kegin bir hil nomlilani yana berilgan parameter bilan sartirovka qiladi
 *ThenByDescending: задает дополнительные критерии для упорядочивания элементов по убыванию
 *Join: соединяет две коллекции по определенному признаку
 *GroupBy: группирует элементы по ключу
