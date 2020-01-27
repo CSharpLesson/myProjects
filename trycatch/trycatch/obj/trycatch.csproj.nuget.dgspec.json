@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Lesson\\trycatch\\trycatch\\trycatch.csproj": {}
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\trycatch\\trycatch\\trycatch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Lesson\\trycatch\\trycatch\\trycatch.csproj": {
+    "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\trycatch\\trycatch\\trycatch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\trycatch\\trycatch\\trycatch.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\trycatch\\trycatch\\trycatch.csproj",
         "projectName": "trycatch",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\trycatch\\trycatch\\trycatch.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\trycatch\\trycatch\\trycatch.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\trycatch\\trycatch\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\Lesson\\myProjects\\trycatch\\trycatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

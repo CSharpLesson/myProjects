@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebApiApp.Interface;
 
 namespace WebApiApp.Controllers
 {
@@ -10,11 +11,19 @@ namespace WebApiApp.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        ILibery _libery;
+
+        public ValuesController(ILibery libery)
+        {
+            _libery = libery;
+        }
+
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+
+            return Ok(_libery.Send());
         }
 
         // GET api/values/5
