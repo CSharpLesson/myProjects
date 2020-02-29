@@ -9,3 +9,14 @@ C:\Users\User\source\repos\Lesson\trycatch\trycatch\obj\Debug\netcoreapp2.2\tryc
 C:\Users\User\source\repos\Lesson\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.AssemblyInfo.cs
 C:\Users\User\source\repos\Lesson\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.dll
 C:\Users\User\source\repos\Lesson\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.pdb
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\bin\Debug\netcoreapp2.2\trycatch.deps.json
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\bin\Debug\netcoreapp2.2\trycatch.runtimeconfig.json
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\bin\Debug\netcoreapp2.2\trycatch.runtimeconfig.dev.json
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\bin\Debug\netcoreapp2.2\trycatch.dll
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\bin\Debug\netcoreapp2.2\trycatch.pdb
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.AssemblyInfo.cs
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.dll
+C:\Users\User\source\repos\Lesson\myProjects\trycatch\trycatch\obj\Debug\netcoreapp2.2\trycatch.pdb
