@@ -1,12 +1,70 @@
 ﻿
 using System;
-
+using System.Collections.Generic;
+using static System.Console; 
 namespace Chernavik
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Motorcycle c = new Motorcycle(5);
+            c.SetDriverName("Tiny" );
+            c.PopAWheely();
+            WriteLine("Rider name is { 0 }", c.driverName); //вывод имени гонщика
+            ReadLine();
+            Hello.cons();
+            //var ad = new Added();
+            //List<Added> added = new List<Added>();
+
+
+            //List<List<string>> list = new List<List<string>>(); //инициализация
+            //list.Add(new List<string>());//добавление новой строки
+            //добавление столбца в новую строку
+            //обращение к первому столбцу первой строки
+            //list[0].Add("1");
+            //list[0].Add("2");
+            //list[0].Add("3");
+            //list.Add(new List<string>());
+            //list[1].Add("4");
+            //list[1].Add("5");
+            //list[1].Add("6");
+            //list.Add(new List<string>());
+            //list[2].Add("7");
+            //list[2].Add("8");
+            //list[2].Add("9");
+
+
+            //foreach (var item in list)
+            //{
+            //    foreach (var item1 in item)
+            //    {
+            //        Console.Write(item1 + "\t");
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+
+
+            //int[,] mas = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }, { 10, 11, 12 } };
+
+            //int rows = mas.GetUpperBound(0) + 1;
+            //int columns = mas.Length / rows;
+            //// или так
+            //// int columns = mas.GetUpperBound(1) + 1;
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write($"{mas[i, j]} \t");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+
+
             //Console.WriteLine("=> Rectangular multidimensional array.");
             //// Прямоугольный многомерный массив.
             //int[,] myMatrix;
@@ -102,4 +160,80 @@ namespace Chernavik
     //        InfoStnng = info;
     //    }
     //}
+    class Added
+    {
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+
+            set
+            {
+                name = value;
+            }
+        }
+
+        public int Age
+        {
+            set
+            {
+                if (value < 18)
+                {
+                    Console.WriteLine("Возраст должен быть больше 17");
+                }
+                else
+                {
+                    
+                }
+            }
+            
+        }
+        public string name { get; set; }
+        public Added( string name)
+        {
+            this.name = name;
+        }
+    }
+    class Motorcycle
+    {
+        public int driverlntensity;
+        public string driverName;
+        // Связывание конструкторов в цепочку.
+        public Motorcycle() { }
+        public Motorcycle(int intensity)
+        : this(intensity, "") { Console.WriteLine(intensity); }
+        public Motorcycle(string name)
+        : this(0, name) { Console.WriteLine(name); }
+        // Это 'главный' конструктор, выполняющий всю реальную работу,
+        public Motorcycle(int intensity, string name)
+        {
+            if (intensity > 10)
+            {
+                intensity = 10;
+            }
+            driverlntensity = intensity;
+            driverName = name;
+        }
+        public void PopAWheely()
+        {
+            for (int i = 0; i <= driverlntensity; i++)
+            {
+                Console.WriteLine("Yeeeeeee Haaaaaeewww! " ) ;
+            }
+        }        public void SetDriverName(string name)
+        {
+            this.driverName = name; 
+        }        
+
+
+
+    }     class Hello
+    {
+        public static void cons()
+        {
+            Console.WriteLine("asdasdasdasd");
+        }
+    }
 }
