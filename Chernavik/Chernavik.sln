@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chernavik", "Chernavik\Chernavik.csproj", "{01044D5A-9345-4B20-A11A-AFDAAEED8F84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{FCB5340C-F60B-47A6-B235-3948B5EE0452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticDataAndMembers", "StaticDataAndMembers\StaticDataAndMembers.csproj", "{FCB5340C-F60B-47A6-B235-3948B5EE0452}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OraclConnect", "OraclConnect\OraclConnect.csproj", "{B6431BC1-C506-4932-BFC3-214F54E9FCA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OraclBilanIshlash", "OraclBilanIshlash\OraclBilanIshlash.csproj", "{DD780F81-2D04-4FA7-A2EF-CE8FA00102B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{FCB5340C-F60B-47A6-B235-3948B5EE0452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB5340C-F60B-47A6-B235-3948B5EE0452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB5340C-F60B-47A6-B235-3948B5EE0452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6431BC1-C506-4932-BFC3-214F54E9FCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6431BC1-C506-4932-BFC3-214F54E9FCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6431BC1-C506-4932-BFC3-214F54E9FCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6431BC1-C506-4932-BFC3-214F54E9FCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD780F81-2D04-4FA7-A2EF-CE8FA00102B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD780F81-2D04-4FA7-A2EF-CE8FA00102B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD780F81-2D04-4FA7-A2EF-CE8FA00102B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD780F81-2D04-4FA7-A2EF-CE8FA00102B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

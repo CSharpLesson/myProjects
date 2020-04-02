@@ -8,3 +8,5 @@ C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\Debug\netcoreapp2.2\StaticDataAndMembers.AssemblyInfo.cs
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\Debug\netcoreapp2.2\StaticDataAndMembers.dll
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\Debug\netcoreapp2.2\StaticDataAndMembers.pdb
+C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\Debug\netcoreapp2.2\StaticDataAndMembers.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Lesson\myProjects\Chernavik\StaticDataAndMembers\obj\Debug\netcoreapp2.2\StaticDataAndMembers.genruntimeconfig.cache
