@@ -4922,6 +4922,7 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "\\\\172.17.9.248\\open\\NuGetPackages (.net core 3.1)": {},
+        "\\\\172.17.9.248\\open\\nugetTest": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

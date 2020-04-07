@@ -7,8 +7,26 @@ using System.Text;
 namespace OraclBilanIshlash.Model
 {
     [Table("auth_roles")]
-    public class AuthRoles 
+    public class AuthRoles
     {
+        private int id;
+        private string name;
+        private string comment;
+        private int createdBy;
+        private DateTime created;
+        private int structureId;
+
+        public AuthRoles(int id, string name, string comment, int createdBy, DateTime created, int structureId)
+        {
+            this.id = id;
+            this.name = name;
+            this.comment = comment;
+            this.createdBy = createdBy;
+            this.created = created;
+            this.structureId = structureId;
+        }
+
+
 
 
         /// <summary>
@@ -21,7 +39,22 @@ namespace OraclBilanIshlash.Model
         /// Номи
         /// </summary>
         [Column("name")]
-        public string Name { get; set; }
+       
+
+        public string Name
+        {
+            get
+            {
+                if(name!= "hfdfhdf")
+                    return name;
+                return null;
+            }
+
+            private set
+            {
+                name = value;
+            }
+        }
 
 
         /// <summary>

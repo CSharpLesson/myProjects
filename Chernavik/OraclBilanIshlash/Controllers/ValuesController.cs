@@ -23,9 +23,17 @@ namespace OraclBilanIshlash.Controllers
         [HttpGet]
         public ActionResult<List<AuthRoles>> Get()
         {
-            var entity =_authService.GetAll();
-            return Ok(entity); 
+            var a = 0;
+            return _authService.GetAll(); ;
         }
+        //private static List<AuthRoles> standart = new List<AuthRoles>
+        //{
+        //    new AuthRoles
+        //    {
+        //        Comment = "assa",
+        //        CreatedBy = 0
+        //    }
+        //};
 
         // GET api/values/5
         [HttpGet("{id}")]
