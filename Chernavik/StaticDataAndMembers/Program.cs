@@ -7,7 +7,10 @@ namespace StaticDataAndMembers
     {
         static void Main(string[] args)
         {
-
+            Emploee e = new Emploee();
+            e.Id = 1;
+            e.Name = "Ibrohim";
+            Console.WriteLine(e.Id+": "+e.Name);
             
             //Console.WriteLine("*****Fun with Static Data * ****\n");
             //SavingsAccount si = new SavingsAccount(50);
@@ -30,6 +33,16 @@ namespace StaticDataAndMembers
            
                 
         }
+    }
+
+
+    partial class Emploee 
+    {
+        public int Id { get; set; }
+    }
+    partial class Emploee 
+    {
+        public string Name { get; set; }
     }
 
 }

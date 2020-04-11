@@ -12,6 +12,7 @@ namespace OraclBilanIshlash.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public ICollection<Contact> Contacts { get; set; }
         private IAuthService _authService;
 
         public ValuesController(IAuthService authService)
@@ -23,8 +24,29 @@ namespace OraclBilanIshlash.Controllers
         [HttpGet]
         public ActionResult<List<AuthRoles>> Get()
         {
-            var a = 0;
-            return _authService.GetAll(); ;
+
+            this.Contacts = new List<Contact>
+            {
+            new Contact { Id = 7113, Name = "James Norris", BirthDate = new DateTime(1977, 5, 13), Phone = "488-555-1212", },
+            new Contact { Id = 7114, Name = "Mary Lamb", BirthDate =  new DateTime(1974, 10, 21), Phone = "337-555-1212",  },
+            new Contact { Id = 7115, Name = "Robert Shoemaker", BirthDate = new DateTime(1968, 2, 8), Phone ="643-555-1212", }
+
+            };
+            var studentDetails = from Contactes in Contacts where Contactes.Id == 1 select Contactes;
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine(studentDetails);
+            if (!studentDetails.Any()) 
+            {
+                return NotFound();
+            }
+            return Ok("zo'r");
+
         }
         //private static List<AuthRoles> standart = new List<AuthRoles>
         //{
@@ -58,6 +80,21 @@ namespace OraclBilanIshlash.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+    }
+    public class Contact
+    {
+        
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime? BirthDate { get; set; }
+        public string Phone { get; set; }
+
+
+        public Contact()
+        {
+            this.Id = 7113; this.Name = "James Norris"; this.BirthDate = new DateTime(1977, 5, 13); this.Phone = "488-555-1212";
+
         }
     }
 }

@@ -20,10 +20,7 @@ C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Deb
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Debug\netcoreapp3.1\OraclBilanIshlash.dll
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Debug\netcoreapp3.1\OraclBilanIshlash.pdb
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Debug\netcoreapp3.1\OraclBilanIshlash.genruntimeconfig.cache
-C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\AvastInfrastructureRepository.dll
-C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\EntityRepository.dll
-C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\RepositoryCore.dll
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Debug\netcoreapp3.1\OraclBilanIshlash.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\obj\Debug\netcoreapp3.1\OraclBilanIshlash.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
+C:\Users\User\source\repos\Lesson\myProjects\Chernavik\OraclBilanIshlash\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
