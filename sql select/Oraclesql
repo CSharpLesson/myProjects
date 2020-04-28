@@ -1,0 +1,2 @@
+bu select oraclda date bo'yicha qidiradi
+select  * from journal_109 where to_char("DATE",'yyyy-mm-dd') ='2020-04-27'
