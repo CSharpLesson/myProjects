@@ -1,0 +1,8 @@
+\' - single quote, needed for character literals.
+\" - double quote, needed for string literals.
+\ - backslash.
+\0 - Unicode character 0.
+\a - Alert (character 7)
+\b - Backspace (character 8)
+\f - Form feed (character 12)
+\n - New line (character 10)
