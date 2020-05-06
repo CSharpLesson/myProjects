@@ -1,0 +1,99 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Reflection.Metadata;
+using System.Threading.Tasks;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using iTextSharp;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Document = iTextSharp.text.Document;
+using Grpc.Core;
+using iTextSharp.text.pdf.parser;
+using System.Text;
+
+namespace PDFD.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class WeatherForecastController : ControllerBase
+    {
+        private static readonly string[] Summaries = new[]
+        {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
+
+        private readonly ILogger<WeatherForecastController> _logger;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        {
+            _logger = logger;
+        }
+
+        [HttpGet]
+        public IEnumerable<WeatherForecast> Get()
+        {
+            // agar shu kodni qo'ymasa encode degan hatolik chiqadi mani eng qiynagan kod. shu komponenta bilan ishlaganda abizatelna kere shu.
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+            Encoding.GetEncoding("windows-1254");
+            
+            var ttf = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), "ARIAL.TTF");
+            var baseFont = BaseFont.CreateFont(ttf, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+            var font = new Font(baseFont, Font.DEFAULTSIZE, Font.NORMAL);
+            var doc = new Document();
+
+            PdfWriter.GetInstance(doc, new FileStream($"{DateTime.Now:dd-MM-yyyyTHH-mm-ss}ddDocument.pdf", FileMode.Create));
+            doc.Open();            
+
+            PdfPTable tables = new PdfPTable(2);
+            PdfPCell CellTwo = new PdfPCell(new Paragraph("Пример 1",font));            
+            
+            CellTwo.HorizontalAlignment = Element.ALIGN_RIGHT;
+            tables.AddCell(CellTwo);
+            
+            PdfPCell CellTree = new PdfPCell(new Phrase($"{DateTime.Now:dd.MM.yyyy}"));            
+            CellTree.HorizontalAlignment = Element.ALIGN_LEFT;
+            tables.AddCell(CellTree);
+            
+            Paragraph title = new Paragraph();               
+            title.Add("Счет фактура");
+            tables.AddCell(title);
+            
+            PdfPCell CellTreeR2 = new PdfPCell(new Phrase("bla bla"));            
+            CellTreeR2.HorizontalAlignment = Element.ALIGN_LEFT;
+            tables.AddCell(CellTreeR2);
+            
+            PdfPTable table = new PdfPTable(4);                  
+            table.AddCell(" ");
+            table.AddCell("Col 2 Row 1");
+            table.AddCell("Col 3 Row 1");
+            table.AddCell("Col 1 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            table.AddCell("Col 2 Row 2");
+            table.AddCell("Col 3 Row 2");
+            doc.Add(tables);
+            doc.Add(table);
+            doc.Close();
+            
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                
+            })
+            .ToArray();
+        }
+    }
+}
