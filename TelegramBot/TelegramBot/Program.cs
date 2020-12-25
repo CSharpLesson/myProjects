@@ -52,6 +52,11 @@ namespace TelegramBot
             new KeyboardButton("item")
         }
          };
+            var RequestReplyKeyboard = new ReplyKeyboardMarkup(new[]// bu yerda location qabul qilish ishlatilvotdi
+                        {
+                            new KeyboardButton("Location") { RequestLocation = true } //keyboard bilan locationi qabul qilinvotdi
+                        });
+                RequestReplyKeyboard.ResizeKeyboard = true;// keyboart buttoni razmerini kichkina qiladi
             Bot.SendTextMessageAsync(e.Message.Chat.Id, "Text", ParseMode.Default, false, false, 0, rkm);
             //inline yasash
             var inlineKeyboard = new InlineKeyboardMarkup(new[] { new[] { InlineKeyboardButton.WithCallbackData("asdas") },
