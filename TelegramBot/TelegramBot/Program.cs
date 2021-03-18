@@ -21,6 +21,50 @@ namespace TelegramBot
             Console.ReadLine();
             Bot.StopReceiving();
         }
+        //botda rasm jonatish
+        /// <summary>
+        /// 
+        /// </summary>
+        public async static void SendPhoto()
+        {
+            //file jonatishni boshlang'ichi
+
+            var clients = await ClientService.GetAll();
+            clients = clients.Where(f => f.IsActive == true).ToList();
+
+
+            foreach (var client in clients)
+            {
+
+                try
+                {
+                    var stream = File.Open(@"C:\Users\karimbayev_s\Desktop\q.jpg", FileMode.Open);
+                    await SendMes(client, stream);
+                    stream.Close();
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
+                }
+
+            }
+
+        }
+        private static async Task SendMes(Client model, FileStream file)
+        {
+            try
+            {
+                await Bot.SendPhotoAsync(model.ChatId, file);
+                Console.WriteLine(model.Name);
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message + " " + model.ChatId);
+            }
+            
+        }
 
         private static void Bot_OnCallbackQuery(object sender, Telegram.Bot.Args.CallbackQueryEventArgs e)
         {
